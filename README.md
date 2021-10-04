@@ -18,8 +18,8 @@
 |:heavy_check_mark:| Unes|
 |:heavy_check_mark:| Game Mosquito|
 |:heavy_check_mark:| Finans|
+|:heavy_check_mark:| Orcamento Pessoal|
 |:x:|Editando a Tabela|
-|:x:||
 |:x:||
 |:x:||
 |:x:||
