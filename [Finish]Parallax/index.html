@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+
+    <style type="text/css">
+        /* Configuração Padrão */
+         body,html{
+             margin: 0;
+             font: 16px "Lato", sans-serif;
+             color: #777;
+             height: 100%;
+            
+         }
+        .conteudo{
+            color: #777;
+            background: #fff;
+            text-align: justify;
+            padding: 50px 80px;
+            
+        }
+        h3{
+            text-transform: uppercase;
+            color: #111;
+            text-align: center;
+        }
+
+        p{
+            margin-bottom: 20px;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        /* Efeito Parallax */
+        
+        .caixa1, .caixa2, .caixa3, .caixa4{
+            /* border: 1px solid red; */
+            height: 100%;
+            position: relative;
+            opacity: 0.7;
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-position: center ;
+            background-attachment: fixed;
+       
+        }
+        .caixa1{
+            background-image: url(img/imagem1.jpg) ;
+      
+        }
+        .caixa2{
+            background-image: url(img/imagem2.jpg) ;
+
+        }
+
+        .caixa3{
+            background-image: url(img/imagem3.jpg) ;
+        }
+        .caixa4{
+            background-image: url(img/imagem4.jpg) ;
+
+        }
+        
+        .conteudo-titulo{
+            position: absolute;
+            left: 0;
+            top: 45%;
+            width: 100%;
+            text-align: center;
+            
+          
+        }
+
+        .conteudo-titulo span.titulo{
+            color: #fff;
+            background-color: #111;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="caixa1">
+        <div class="conteudo-titulo">
+            <span class="titulo"> Varginha XR : O Mundo em 360°</span>
+        </div>
+    </div>
+    <div class="conteudo">
+        <h2>Data, Local & Programação</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sed, aut assumenda voluptatem necessitatibus numquam vero in doloribus ratione vel dolore mollitia rem enim, neque eos facere iure. Quia, itaque!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sed, aut assumenda voluptatem necessitatibus numquam vero in doloribus ratione vel dolore mollitia rem enim, neque eos facere iure. Quia, itaque!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sed, aut assumenda voluptatem necessitatibus numquam vero in doloribus ratione vel dolore mollitia rem enim, neque eos facere iure. Quia, itaque!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sed, aut assumenda voluptatem necessitatibus numquam vero in doloribus ratione vel dolore mollitia rem enim, neque eos facere iure. Quia, itaque!</p>
+        
+    </div>
+
+    <div class="caixa2">
+        <div class="conteudo-titulo">
+            <span class="titulo">Estrada da Vida :-D</span>
+        </div>
+    </div>
+        <div class="conteudo">
+            <h2>Equipe</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sed, aut assumenda voluptatem necessitatibus numquam vero in doloribus ratione vel dolore mollitia rem enim, neque eos facere iure. Quia, itaque!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sed, aut assumenda voluptatem necessitatibus numquam vero in doloribus ratione vel dolore mollitia rem enim, neque eos facere iure. Quia, itaque!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sed, aut assumenda voluptatem necessitatibus numquam vero in doloribus ratione vel dolore mollitia rem enim, neque eos facere iure. Quia, itaque!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sed, aut assumenda voluptatem necessitatibus numquam vero in doloribus ratione vel dolore mollitia rem enim, neque eos facere iure. Quia, itaque!</p>
+            
+        </div>
+
+    <div class="caixa3">
+        <div class="conteudo-titulo">
+            <span class="titulo">Por do Sol :-D</span>
+        </div>
+        </div>   
+    <div class="caixa4">
+        <div class="conteudo-titulo">
+            <span class="titulo">Montanhas :-D</span>
+        </div>
+    </div>
+</body>
+</html>
