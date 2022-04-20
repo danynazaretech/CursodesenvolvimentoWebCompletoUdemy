@@ -19,7 +19,7 @@
 |:heavy_check_mark:| Game Mosquito|
 |:heavy_check_mark:| Finans|
 |:heavy_check_mark:| Orçamento Pessoal|
-|:x:|Editando a Tabela|
+|:heavy_check_mark:| Help Desk|
 |:x:||
 |:x:||
 |:x:||
