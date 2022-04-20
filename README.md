@@ -20,7 +20,7 @@
 |:heavy_check_mark:| Finans|
 |:heavy_check_mark:| Orçamento Pessoal|
 |:heavy_check_mark:| Help Desk|
-|:x:||
+|:heavy_check_mark:| Send Email |
 |:x:||
 |:x:||
 |:x:||
