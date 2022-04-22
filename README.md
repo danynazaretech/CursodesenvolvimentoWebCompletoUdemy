@@ -21,7 +21,7 @@
 |:heavy_check_mark:| Orçamento Pessoal|
 |:heavy_check_mark:| Help Desk|
 |:heavy_check_mark:| Send Email |
-|:x:||
+|:heavy_check_mark:| Loja Virtual |
 |:x:||
 |:x:||
 |:x:||
