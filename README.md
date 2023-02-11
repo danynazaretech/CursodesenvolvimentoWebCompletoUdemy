@@ -22,7 +22,4 @@
 |:heavy_check_mark:| Help Desk|
 |:heavy_check_mark:| Send Email |
 |:heavy_check_mark:| Loja Virtual |
-|:x:||
-|:x:||
-|:x:||
-|:x:||
+
